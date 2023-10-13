@@ -1,0 +1,173 @@
+* {
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+h1{
+    font-weight:400;
+    margin-top: -40px;
+}
+form{
+    max-width: 550px;
+    width:70%;
+    min-width: 200px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding:3%;
+    margin: 20vh auto 0 auto;
+    height:370px;
+    box-shadow: 1px 3px grey;
+}
+
+#my-btn{
+    background-color: rgba(240, 188, 78, 0.774);
+    width: 25.5%;
+    height:4%;
+    border:1px solid rgba(160, 104, 0, 0.979);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:absolute;
+    margin-top: -30px;
+    font-size: 18px;
+    color:rgb(48, 48, 48);
+    box-shadow:  1px 1px #8a5403;
+}
+
+#password{
+    margin-left: 125px;
+    text-decoration: none;
+    color:#1d92d1;
+    font-size:18px ;
+}
+
+.form-control{
+    border:1px black solid;
+    border-radius: 5px;
+}
+
+#pass{
+    margin-left: 50px;
+    margin-bottom:0px;
+    margin-top: 12px;
+
+
+}
+
+#help{
+    margin-left: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size:18px ;
+    text-decoration: none;
+    color: #1d92d1;
+    
+}
+
+.p-lines{
+    border:1 px solid black;
+    height:20px;
+}
+
+
+
+#arrow{
+    border-color: transparent #48abe0 transparent transparent;
+    border-width: 150px 0 150px 150px;
+    
+}
+
+
+footer{
+    border-top: 1px solid rgb(82, 82, 82);
+    box-shadow: black 5px 4px 4px;
+}
+
+footer ul{
+    color:blue;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:34.5%;
+    list-style: none;
+    margin-top: 40px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+li a{
+    text-decoration: none;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 14.5px;
+    padding-bottom: 8%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#amazon{
+    width: 28%;
+    margin-left: 36%;
+    height:40px;
+    background-color: rgb(238, 238, 238);
+    border-color: rgb(167, 167, 167);
+    margin-bottom: 70px;
+    border-radius: 5px;
+    margin-top: -25px;
+    box-shadow: 1px 1px #888888;
+}
+
+#new{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color:rgb(150, 150, 150);
+
+}
+
+#hr-line{
+    display: flex;
+    width:8%;
+    color: black;
+    margin-left: 30px;
+
+}
+
+span{
+    font-size: 12px;
+    margin-top: px;
+}
+
+#new:before{
+        display: inline-block;
+        content: "";
+        height: 2px;
+        background: rgb(173, 173, 173);
+        position: absolute;
+        width: 9.5%;
+        top: 50%;
+        margin-top: 165px;
+        margin-left: 138px;
+      
+}
+
+
+#new::after{
+    display: inline-block;
+    content: "";
+    height: 2px;
+    background: rgb(173, 173, 173);
+    position: absolute;
+    width: 9.5%;
+    top: 50%;
+    margin-top: 165px;
+    margin-left: -300px;
+  
+}
